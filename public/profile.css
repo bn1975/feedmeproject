@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  font-family: "Comfortaa"
+}
+
+#searches {
+
+  margin: 120px;
+  text-shadow: 0 0 10px #6ea2dd;
+
+}
+
+img {
+
+    width: 400px;
+    height: 200px;
+    max-height: 200px;
+    max-width: 400px;
+  	opacity:1; /* transparency */
+    border: solid 5px rgba(110, 162, 221, .5);
+    margin: 30px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    border-radius: 30px;
+    no-repeat;
+    float: left;
+
+  }
+
+img:hover {
+
+  	opacity: 0.3;
+  	filter: alpha(opacity=30);
+
+  }
+
+.userinfo {
+
+  color:  #6ea2dd;
+  font-family: "Comfortaa"
+  float: right;
+  text-shadow: 0 0 20px #6ea2dd;
+
+}
+
+#user {
+
+  color:  #6ea2dd;
+  font-family: "Comfortaa"
+  float: right;
+  opacity: .6
+}
+
+.img-circle {
+
+  float: left;
+  width: 170px;
+  height: 180px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  border: solid 5px rgba(110, 162, 221, .5);
+  box-shadow: 0 0 40px #6ea2dd;
+
+}
+
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+
+  color: white;
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:35px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/*filter:alpha(opacity=75); /* IE transparency */*/
+  /*text-shadow: 0 0 20px #6ea2dd;*/
+
+}
+p.description_content{
+	padding:0px;
+  WIDTH: 100%;
+  margin-left: 160px;
+  margin-bottom: 85px;
+	font-size: 40px;
+}

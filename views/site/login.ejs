@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Register for feedMe</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="login.css" rel="stylesheet">
+
+	<link rel="stylesheet"
+				href="https://fonts.googleapis.com/css?family=Comfortaa">
+	<link rel="stylesheet"
+				href="https://fonts.googleapis.com/css?family=Poiret+One">
+
+</head>
+
+<body>
+
+	<div class="navbar-wrapper">
+		<div class="container">
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand">feedMe</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/home">Home</a></li>
+							<li><a href="/about">About</a></li>
+							<li><a href="/logout">Logout</a></li>
+							<!-- <li><a href="/profile">Profile</a></li> -->
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+
+<!-- //HOW DO I OVERLAY TEXT ON TOP OF AN IMAGE? -->
+  <div><img align="center" src="/images/forkknifespoon.jpg" alt="Generic placeholder image" width="100%" height="350"></div>
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-validation.css -->
+
+			<div class="container">
+
+				<div><h1 align="center">Login:  let feedMe feed you</h1></div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+
+						<form method="POST" action="/profile"> <!-- BEGIN login form -->
+
+						  <div class="form-group"> <!-- Begin email group-->
+						    <label for="emailInput">Email:</label>
+						    <input type="text" name="email"  class="form-control" id="emailInput" placeholder="Example input">
+						  </div><!-- END email group-->
+
+						  <div class="form-group"><!-- Begin password group-->
+						    <label for="passwordInput">Password</label>
+						    <input type="password" name="password" class="form-control" id="passwordInput" placeholder="Password">
+						  </div><!-- End password group-->
+
+							<button class="btn btn-primary col-xs-12">Get in my belly!</button>
+						</form><!-- END login form -->
+					</div>
+				</div>
+			</div>
+
+    </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>

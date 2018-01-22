@@ -1,0 +1,51 @@
+body {
+
+  background-color: black;
+
+}
+
+container {
+  align-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+/*h1 {
+  color:  #6ea2dd;
+  font-size: 72px;
+  font-family: "Comfortaa"
+}*/
+
+img {
+
+  padding-left: : 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  /*border: solid 3px white;*/
+
+}
+
+.img-circle {
+
+  border: solid 2px white;
+  box-shadow: 0 0 40px #6ea2dd;
+
+}
+
+
+p {
+  padding-left: : 20px;
+}
+
+.info {
+  font-style: bold;
+  color: white;
+  font-family: "Poiret One";
+}
+
+.address {
+
+  font-family: "Comfortaa";
+  color: white;
+}
