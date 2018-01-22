@@ -8,9 +8,9 @@ const express = require('express'),
       cookieSession = require('cookie-session');
 
 //LOAD ENV FILE FOR SECRETS
-if (process.env.APP_MODE !== 'production') {
-  require('dotenv').config(); // LOAD IN .env file in development
-}
+//if (process.env.APP_MODE !== 'production') {
+//  require('dotenv').config(); // LOAD IN .env file in development
+//}
 
 // Check the process.env for a PORT value or
 // set it to the default of 8000.
