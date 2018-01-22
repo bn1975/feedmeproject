@@ -14,7 +14,7 @@ if (process.env.APP_MODE !== 'production') {
 
 // Check the process.env for a PORT value or
 // set it to the default of 8000.
-const PORT = process.env.PORT || '8000';
+const PORT = process.env.PORT || '3000';
 
 // Logger for incoming requests
 app.use(morgan('common'));

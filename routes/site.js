@@ -65,7 +65,7 @@ router.post('/profile', function (req, res) {
 router.get('/profile', function (req, res) {
   // Send profile.ejs file to the client
   if (req.session.user_id) { // CHECK IF LOGGED IN BEFORE RENDERING A PROFILE
-    res.render('/profile');
+    res.render('site/profile');
   } else {
     res.redirect('/signup');
   }
