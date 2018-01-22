@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "dotenv": "^4.0.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "npm": "^5.5.1"
   },
   "repository": {
     "type": "git",
